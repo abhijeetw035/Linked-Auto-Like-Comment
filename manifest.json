@@ -1,0 +1,15 @@
+{
+    "name": "task3",
+    "description": "Task 3",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "scripting",
+        "activeTab",
+        "tabs"
+    ],
+    "host_permissions": ["*://*/*"]
+}
